@@ -25,7 +25,7 @@ function App() {
          <Router >
 
         <Routes>
-          <Route path="/" element={<FormComponent />} />
+          <Route path="/Form_React" element={<FormComponent />} />
           <Route path="profile" element={<Profile />} />
         </Routes>
 
