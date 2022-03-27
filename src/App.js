@@ -1,9 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FormComponent } from './Components/FormComponent';
-import { Card, CardBody, CardHeader, Col, Container, Row } from 'reactstrap';
 import { Profile } from './Components/Profile';
-import { Link, Route } from 'react-router-dom';
+import {  Route } from 'react-router-dom';
 import {
   BrowserRouter as Router,
   Routes
@@ -25,7 +24,7 @@ function App() {
          <Router >
 
         <Routes>
-          <Route path="/Form_React" element={<FormComponent />} />
+          <Route path="/" element={<FormComponent />} />
           <Route path="profile" element={<Profile />} />
         </Routes>
 
